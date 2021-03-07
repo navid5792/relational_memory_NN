@@ -1,0 +1,18 @@
+MSRP
+
+Infersent max 	74.46
+Infersent mean 	72.24
+
+LSTM last 		69.85
+Relational		72.94
+
+concatenate memory at each time step and then masking 31x1x1024		BS 16
+self.headsize = int((1024) / (self.numheads * self.memslots))
+
+max		70.65
+mean	70.37
+
+only take the memory
+
+70.37
+70.37

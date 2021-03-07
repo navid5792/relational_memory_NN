@@ -1,0 +1,37 @@
+leaf encountered:  a 
+leaf encountered:  group 
+[2 2] ['a', 'group'] [1, 2]
+leaf encountered:  of 
+leaf encountered:  kids 
+[1 1] ['kids'] [1]
+leaf encountered:  is 
+leaf encountered:  playing 
+leaf encountered:  in 
+leaf encountered:  a 
+leaf encountered:  yard 
+[2 2] ['a', 'yard'] [1, 2]
+leaf encountered:  and 
+leaf encountered:  an 
+leaf encountered:  old 
+leaf encountered:  man 
+[3 3] ['an', 'old', 'man'] [1, 2, 3]
+[6 6] [['a', 'yard'], 'and', ['an', 'old', 'man']] [1, 2, 3]
+[7 7] ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]] [1, 2]
+[8 8] ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]] [1, 2]
+[9 9] ['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]] [1, 2]
+[9 9] [['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]] [1]
+[9 9] [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]] [1]
+[10 10] [['kids'], [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]]] [1, 2]
+[11 11] ['of', [['kids'], [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]]]] [1, 2]
+[13 13] [['a', 'group'], ['of', [['kids'], [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]]]]] [1, 2]
+leaf encountered:  is 
+leaf encountered:  standing 
+leaf encountered:  in 
+leaf encountered:  the 
+leaf encountered:  background 
+[2 2] ['the', 'background'] [1, 2]
+[3 3] ['in', ['the', 'background']] [1, 2]
+[4 4] ['standing', ['in', ['the', 'background']]] [1, 2]
+[5 5] ['is', ['standing', ['in', ['the', 'background']]]] [1, 2]
+[18 18] [[['a', 'group'], ['of', [['kids'], [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]]]]], ['is', ['standing', ['in', ['the', 'background']]]]] [1, 2]
+[18 18] [[[['a', 'group'], ['of', [['kids'], [[['is', ['playing', ['in', [['a', 'yard'], 'and', ['an', 'old', 'man']]]]]]]]]], ['is', ['standing', ['in', ['the', 'background']]]]]] [1]
